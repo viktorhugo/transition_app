@@ -9,11 +9,14 @@ class Screen2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Screen 1' ,style: TextStyle(color: Colors.white),),
+        title: const Text('Screen 2' ,style: TextStyle(color: Colors.white),),
       ),
-      body: const Center(
-        child: Text('Screen2'),
-    ),
+      body: Container(
+        color: Colors.tealAccent,
+        child: const Center(
+          child: Text('Screen 2 '),
+            ),
+      ),
   );
   }
 }
